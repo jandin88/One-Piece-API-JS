@@ -47,12 +47,17 @@ function elementos(data, divMain) {
             liAltura.textContent = "Altura: " + item.size;
 
             const liIdade = document.createElement("li")
-            liIdade.textContent = "Altura: " + item.age;            
+            liIdade.textContent = "idade: " + item.age;
+            
+            const liReward=document.createElement("li")
+            liReward.textContent="Recompenssa: "+item.bounty;
+
             ul.appendChild(liImg);
             ul.appendChild(liNome);
             ul.appendChild(liCargo);
             ul.appendChild(liAltura);
             ul.appendChild(liIdade);
+            ul.appendChild(liReward);
 
             
             divMain.appendChild(ul)

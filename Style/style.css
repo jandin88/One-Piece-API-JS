@@ -32,11 +32,10 @@ body {
 
 #user {
 	display: none;
-	margin: 10%;
+	margin: 8%;
 	margin-top: 40px;
 	
 }
-
 
 #user.active,
 ul {
@@ -47,7 +46,6 @@ ul {
 	transition: 2s;	 
 	
 } 
-
 
 #user.active ul li {
 	width: 100%;
