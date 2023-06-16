@@ -32,7 +32,7 @@ body {
 
 #user {
 	display: none;
-	margin: 8%;
+	margin: 10%;
 	margin-top: 40px;
 	
 }
@@ -43,13 +43,19 @@ ul {
 	display: flex;
 	flex-wrap: wrap;
 	display: inline-block;
+	padding: 30px;
+	transition: 2s;	 
 	
-}
+} 
+
 
 #user.active ul li {
 	width: 100%;
-	padding: 15px;
 	list-style: none;
+	
+}
+li{
+	padding:5px;
 }
 
 img {
