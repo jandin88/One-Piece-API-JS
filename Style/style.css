@@ -1,0 +1,59 @@
+body {
+	overflow-y:scroll;
+	
+  }
+  
+
+.bg_video {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -1000;
+	background-size: cover;
+	display: flex;
+}
+
+#primary {
+	transition: 2s;
+	text-align: center;
+	padding-top: 80px;
+}
+
+#primary.active {
+	text-align: center;
+	transition: 2s;
+	padding-top: 20px;
+	color: blue;
+}
+
+#user {
+	display: none;
+	margin: 8%;
+	margin-top: 40px;
+	
+}
+
+
+#user.active,
+ul {
+	display: flex;
+	flex-wrap: wrap;
+	display: inline-block;
+	
+}
+
+#user.active ul li {
+	width: 100%;
+	padding: 15px;
+	list-style: none;
+}
+
+img {
+
+	width: 180px;
+	height: 100px;
+}
