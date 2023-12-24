@@ -38,7 +38,7 @@ function elementos(data, divMain) {
             liImg.innerHTML='<img src="img/images'+item.id+'.jpeg">'
            
             const liNome = document.createElement("li")
-            liNome.textContent = "nome: " + item.french_name;
+            liNome.textContent = "nome: " + item.name;
 
             const liCargo = document.createElement("li")
             liCargo.textContent = "Cargo: " + item.job;
