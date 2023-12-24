@@ -1,5 +1,5 @@
 
-fetch('https://api.api-onepiece.com/characters/').then(response => response.json())
+fetch('https://api.api-onepiece.com/v2/characters/en/').then(response => response.json())
     .then(data => {
         const botao = document.querySelector("#acessar")
         const primary = document.querySelector("#primary")
